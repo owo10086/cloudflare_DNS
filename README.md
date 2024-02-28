@@ -7,6 +7,12 @@ yum -y install nc
 
 yum -y install jq
 
+debian
+
+sudo apt update
+sudo apt install netcat jq
+
+
 ### 特别提示
 你自己要先去创建一个二级域名才行，不然就是`失败`，这个脚本没有创建二级域名的功能哦<br>
 
